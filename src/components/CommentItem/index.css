@@ -1,0 +1,144 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comments-display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name-comment-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.sub-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.user-icon {
+  width: 38px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 50px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.name-time-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.username {
+  color: #1e293b;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.time {
+  color: #94a3b8;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.comment-line {
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+.icons-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.like-button {
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+  margin-right: 10px;
+}
+
+.like-icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+}
+
+.like-icon-name {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.delete-button {
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 2%;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.sky-blue {
+  color: #0ea5e9;
+}
+
+.horizontal-line {
+  background-color: #cbd2d9;
+  opacity: 0.5;
+  width: 70vw;
+  margin-left: 0;
+}
